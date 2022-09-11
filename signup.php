@@ -80,6 +80,7 @@ if(isset($_POST["signup_button"])){
                     ?>
                   
                     <div class="card">
+                    <button class="btn btn-primary" onclick="window.location.href = 'index.php';"> Login Page  </button>
                         <div class="card-header">SignUp</div>
                         <div class="card-body">
                             <form method="POST">

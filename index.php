@@ -125,6 +125,9 @@ if(isset($_POST["login_button"]))
                     }
                     ?>
                     <div class="card">
+                    <button class="btn btn-primary" onclick="window.location.href = 'signup.php';"> SignUp  </button>
+                    
+                
                         <div class="card-header">Login</div>
                         <div class="card-body">
                             <form method="POST">
@@ -138,6 +141,9 @@ if(isset($_POST["login_button"]))
                                 </div>
                                 <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
                                     <input type="submit" name="login_button" value="Login" class="btn btn-primary" />
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+                                    
                                 </div>
                             </form>
                         </div>
